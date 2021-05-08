@@ -4,7 +4,7 @@ var app = express();
 var samples = "";
 
 for(let i = 0; i < 20; i++) {
-  samples += "This is example number " + i + " in our index! :)" + <br>;
+  samples += "This is example number " + i + " in our index! :) <br>";
 }
 
 app.get('/', function (req, res) {
